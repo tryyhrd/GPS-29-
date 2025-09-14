@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                         String.valueOf(location.getLongitude() + ", " + location.getLatitude()),
                         textAddress
                 );
-                GetAddressByGPS.execute();
+                getAddressByGPS.execute();
             }
         }
     };
